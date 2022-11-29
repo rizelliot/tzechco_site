@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "animate.css": "^4.1.1",
+    "tsparticles-engine": "^2.5.2"
+  }
+}

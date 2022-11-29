@@ -73,6 +73,12 @@ select {
   }
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 body {
     background-color: black;
     display: flex;
@@ -80,6 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
     
     
 }
@@ -154,6 +161,18 @@ footer {
   
   i {
     font-size: 4em;
+  }
+  
+  .main-text {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 370px) {
+
+  
+  i {
+    font-size: 3em;
   }
   
   .main-text {
